@@ -10,7 +10,7 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Zaid Loni</h2>
         <div className="prompt">
-          <p>A FrontEnd Engineer with a passion for learning and creating.</p>
+          <p>A Front-End Engineer with a passion for learning and creating.</p>
           <a href="https://www.linkedin.com/in/zaidloni/">
             <LinkedInIcon />
           </a>

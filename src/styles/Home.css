@@ -46,6 +46,9 @@
 .skills h1 {
   color: #3e497a;
 }
+.skills h2{
+  margin-bottom: 10px;
+}
 
 .skills .list {
   list-style: none;

@@ -12,17 +12,17 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <a href={project.live}>
+      <a target="_blank" href={project.live}>
         <img src={project.image} />
       </a>
       <p>
         <b>Skills:</b> {project.skills}
       </p>
       <div>
-        <a href={project.github}>
+        <a target="_blank" href={project.github}>
           <GitHubIcon />
         </a>
-        <a style={{ marginLeft: "15px" }} href={project.live}>
+        <a target="_blank" style={{ marginLeft: "15px" }} href={project.live}>
           <OpenInNew />
         </a>
       </div>

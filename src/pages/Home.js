@@ -11,17 +11,17 @@ function Home() {
         <h2> Hi, My Name is Zaid Loni</h2>
         <div className="prompt">
           <p>A Front-End Engineer with a passion for learning and creating.</p>
-          <a href="https://www.linkedin.com/in/zaidloni/">
+          <a target="_blank" href="https://www.linkedin.com/in/zaidloni/">
             <LinkedInIcon />
           </a>
-          <a
+          <a target="_blank"
             onClick={() =>
               (window.location.href = "mailto:zaidloni20@gmail.com")
             }
           >
             <EmailIcon />
           </a>
-          <a href="https://github.com/zaidloni">
+          <a target="_blank" href="https://github.com/zaidloni">
             <GithubIcon />
           </a>
         </div>
@@ -38,7 +38,7 @@ function Home() {
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, TypeScript, Python, C</span>
+            <span>JavaScript, TypeScript, Python</span>
           </li>
           <li className="item">
             <h2>Others</h2>

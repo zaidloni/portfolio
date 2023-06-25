@@ -27,6 +27,13 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
+        <a
+          target="_blank"
+          href="https://drive.google.com/file/d/1TdLa3SdFIUKejcbLdV7X7d1Bb8MnFlbv/view?usp=drive_link"
+          className="resume-btn"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );
